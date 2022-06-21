@@ -1,0 +1,87 @@
+@font-face {
+
+    font-family: 'Comic';
+    src: url(Bouncy-PERSONAL_USE_ONLY.otf) format('opentype');
+
+}
+
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    margin: 0;
+    height: 100%;
+
+}
+
+#container{
+
+    height: 100%;
+    background-color: dimgrey;
+
+}
+
+#header{
+
+    margin: auto;
+    height: 15%;
+    width: 90%;
+    background-color: olivedrab;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#middle{
+
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+
+}
+
+#footer{
+
+    margin: auto;
+    height: 15%;
+    width: 90%;
+    background-color: rebeccapurple;
+
+}
+
+.buttons{
+
+    background-color: azure;
+    border: 0;
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    border: 3px solid cornflowerblue;
+    color: rebeccapurple;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'Comic'; 
+
+}
+
+.buttons:hover{
+
+    color: black;
+    transform: scale(1.1);
+
+}
+
+#image{
+
+    width: 10%;
+
+}

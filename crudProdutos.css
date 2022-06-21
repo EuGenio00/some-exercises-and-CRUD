@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+div#LevaTudo {
+    margin: 0%;
+    height: 100%;
+    background-color: khaki;
+    text-align: center;
+}
+
+div#cima {
+    font: normal 14pt Arial;
+    color: maroon;
+}
+
+div#meio {
+    color: black;
+    font: normal 12pt Arial;
+}
+
+div#Baixo {
+    color: darkslategray;
+}
+
+div#Lista {
+    font: normal 12pt Arial;
+    color: black;
+}
+
+button {
+    font: normal 12pt Arial;
+    color: cornsilk;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: 5px solid cornflowerblue;
+}
+
+input {
+    font: normal 12pt Arial;
+    width: 350px;
+    height: 20px;
+    line-height: 350px;
+    border-radius: 10px;
+    border: 0.5px solid;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro de produtos</title>
+    <link rel="stylesheet" href="crudProdutos.css">
+</head>
+
+<body>
+
+    <div id="LevaTudo">
+
+        <div id="cima"><br><br>
+            <h2>Cadastre seu produto aqui</h2>
+            <input id="nomeProduto" placeholder="Digite o nome do produto: "><br>
+            <input id="valorProduto" placeholder="Digite o valor do produto: "><br>
+            <button onclick="cadastroProdutos()">Cadastrar produto</button><br><br>
+
+        </div>
+
+        <div id="meio">
+
+            <h4>Alterar valor do produto</h4>
+            <input id="AlteraNome" placeholder="Digite nome do produto que deseja alterar o preço: "><br>
+            <input id="valorNovo" placeholder="Digite um valor novo ao produto: "><br>
+            <button onclick="alteraProdutos()">Alterar</button><br><br>
+            <h4>Excluir produto da preteleira</h4>
+            <input id="deletaProduto" placeholder="Digite o nome do produto que deseja excluir:"><br>
+            <button onclick="deletaProdutos()">Excluir</button><br><br>
+            <h4>Lista dos produtos cadastrados</h4>
+            <button onclick="listaProdutos()">Listar</button><br>
+
+        </div><br>
+
+        <div id="Baixo">
+            <div id="Lista">
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="crudProdutos.js"></script>
+</body>
+
+</html>
